@@ -1,31 +1,31 @@
-/*var a;
+var a;
 
 console.log(a);//undefined
 
-//console.log(b);//index.js:5 Uncaught ReferenceError: b is not defined at index.js:5
+console.log(b);//index.js:5 Uncaught ReferenceError: b is not defined at index.js:5
 let c;
 
 console.log(c);
 
 const d;
 
-console.log(d);//Uncaught SyntaxError: Missing initializer in const declaration */
+console.log(d);//Uncaught SyntaxError: Missing initializer in const declaration 
 
 
 //Example 2-Let
 
-/*let myNumber1=10;
+let myNumber1=10;
 
 console.log(myNumber1);
-//declaration
+declaration
 let myString;
 
 console.log(myString);
-//assignment
+assignment
 myString ='Hello String';
 
 console.log(myString);
-//re assignment
+re assignment
 myString="New value of String";
 
 console.log(myString);
@@ -52,13 +52,13 @@ myString="New value of String";
 console.log(myString);
 
 
-//Example-Const
+Example-Const
 
 const myBoolean=true;
 console.log(myBoolean);//true
 
-//myBoolean=false;
-//console.log(myBoolean);//Uncaught TypeError: Assignment to constant variable at index.js:59
+myBoolean=false;
+console.log(myBoolean);//Uncaught TypeError: Assignment to constant variable at index.js:59
 
 const myBoolean=false;//Uncaught SyntaxError: Identifier 'myBoolean' has already been declared
 
@@ -70,7 +70,7 @@ console.log(myObject);
 
 myObject={};//Uncaught TypeError: Assignment to constant variable.at index.js:70
 
-//const myObject={};//Uncaught SyntaxError: Identifier 'myObject' has already been declared 
+const myObject={};//Uncaught SyntaxError: Identifier 'myObject' has already been declared 
 
 
 //Challenge 2
@@ -127,17 +127,17 @@ console.log(myNewVariable);
 
 myNewVariable=null;
 
-//console.log(myNewVariable);
+console.log(myNewVariable);
 
 myNewvariable.x=false;
 
-console.log(myNewvariable); */
+console.log(myNewvariable);
 
 
 
 //Modify a object
 
-/*const myCity={ city: "Mumbai",
+const myCity={ city: "Mumbai",
               popular : true,
 			  country:"USA"
 			  };
@@ -153,7 +153,7 @@ myCity.city="New York";
 
 console.log(myCity);
 
-// Adding new properties
+//Adding new properties
 
 const myCity1={city: "USA"};
 
@@ -167,7 +167,7 @@ myCity1.country="AUS";
 
 console.log(myCity1);//{city: "USA", popular: false, country: "AUS"}
 
-// Deleting properties
+//Deleting properties
 
 const myCity2={city:"Berlin",popular: true};
 
@@ -210,7 +210,7 @@ delete myCity4.info["popular"];
 console.log(myCity4);//city: "USA" ,info: {country: "New York"}*/
 
 
-/*const myCity5={city: "USA",
+const myCity5={city: "USA",
                info :{ popular: false,
                 country:"New York" ,
                 populationCount :
@@ -228,13 +228,13 @@ myCity5.info.populationCount.population;
 
 console.log(myCity5);//info: {popular: false, country: "New York", populationCount: {…}}
 
-//myCity5.city;
+myCity5.city;
 
-//console.log(myCity5);
+console.log(myCity5);
 
-//myCity5.info.populationCount.population;
+myCity5.info.populationCount.population;
 
-//console.log(myCity5);//info: {popular: false, country: "New York", populationCount: {…}}
+console.log(myCity5);//info: {popular: false, country: "New York", populationCount: {…}}
 
 delete myCity5.populationCount.population;
 
@@ -243,7 +243,7 @@ console.log(myCity5);*/
 
 //Create object and modify its properties:
 
-/*let myObject;
+let myObject;
 
 myObject={a :10,
           b :"abc"
@@ -268,7 +268,7 @@ console.log(myObject.a);//20*/
 
 //Challenege 1
 
-/*let myPost;
+let myPost;
 
 myPost={};
 
@@ -296,7 +296,7 @@ console.log(myPost);*/
 
 //Example 2
 
-/*const myObject={};
+const myObject={};
 
 myObject.a=true;// No error
 
@@ -310,7 +310,7 @@ console.log(myObject);//index.js:306 Uncaught TypeError: Assignment to constant 
 
 //Challenge 2:
 
- /*let myObject={a :10};
+ let myObject={a :10};
 
 let copyOfMyObject;
 
@@ -325,14 +325,14 @@ console.log(copyOfMyObject);//{a: 10, b: false} output is same because object is
 
 //Example 3 using bracket annotation:
 
-/*let myObject={ a: true,
+let myObject={ a: true,
     b: null,
     c: 25
 };
 
 console.log(myObject["a"]);// true
 
-//console.log(myObject[a]);//index.js:335 Uncaught ReferenceError: a is not defined
+console.log(myObject[a]);//index.js:335 Uncaught ReferenceError: a is not defined
 
 console.log(myObject["b"]);// null
 
@@ -348,7 +348,7 @@ console.log(myObject);//{a: true, b: null, c: 25, NewPropertyName: "value for dy
 
 //Example 4--Missing Properties
 
-/*const myObject={a:3,b:true};
+const myObject={a:3,b:true};
 
 console.log(myObject.c);
 
@@ -361,7 +361,7 @@ console.log(myObject.newPropertyDefinedwithUndefinedVariable);//a: 3, b: true, n
 
 //Challenge 3:
 
-/*let objectWithNestedObject ={};
+let objectWithNestedObject ={};
 
 objectWithNestedObject.nestedObject={};
 
@@ -389,9 +389,9 @@ sum(a,b);
 
 a=10;
 b=20;
-sum(a,b);*/
+sum(a,b);
 
-// Syntax of Function
+//Syntax of Function
 
 function myFun(a,b)
 {
