@@ -43,8 +43,8 @@ function myFunction2(a,b)
 }
 console.log(myFunction2(10,20));// undefined because return keyword is not defined
 
-console.log(a);//index.js:46 Uncaught ReferenceError: a is not defined
-console.log(b);// error will be shown at 46,not in this step because JS search engine will stop above only,and will not continue further because of the error.
+//console.log(a);//index.js:46 Uncaught ReferenceError: a is not defined
+//console.log(b);// error will be shown at 46,not in this step because JS search engine will stop above only,and will not continue further because of the error.
 
 // Example 4: Resuse parameter names
 
@@ -153,13 +153,13 @@ outerFunction(10,20);
 
 // Example 1 of Function expression
 
-function(){}//Uncaught SyntaxError: Function statements require a function name
+//function(){}//Uncaught SyntaxError: Function statements require a function name
 
 //Example 2: Assing function expression to variable
 
-const myFunction=function() {};
+const myFunction11=function() {};
 
-console.log(myFunction());
+console.log(myFunction11());
 
 // example 3: settimeout 
 
@@ -171,7 +171,7 @@ setTimeout(function(){
 
 // example 4: setInterval
 
-let i=1;
+ i=1;
 setInterval (function(){
   
     console.log("Message logged each second... "+i);
@@ -182,7 +182,7 @@ setInterval (function(){
 
 //Challenge 1:
 
-let i=1;
+ i=1;
 myInterval=setInterval(function(){
 
     console.log("Here is message number "+ i);
