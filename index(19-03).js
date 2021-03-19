@@ -106,7 +106,7 @@ myFn(b)// true;
 
 myFn(c=c+1);//11
 
-myFn(let d); // error
+//myFn(let d); // error1
 
 
 
