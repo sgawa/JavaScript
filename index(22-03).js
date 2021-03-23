@@ -8,7 +8,7 @@
 
 
     let a;
-    a=10// Assignment expression*/
+    a=10// Assignment expression
 
 
     //5= true;//Uncaught SyntaxError: Invalid left-hand side in assignment
