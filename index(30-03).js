@@ -1,5 +1,5 @@
 //Global execution context
-console.log("Global execution context");
+/*console.log("Global execution context");
 
 const a=10;
 
@@ -45,7 +45,7 @@ secondLevel();
 firstLevel();
 
 
-// Using "this" in the global execution context
+/* // Using "this" in the global execution context
 
 console.log(this);// window
 
@@ -62,5 +62,26 @@ function myFunction()
 
 myFunction();//Window {window: Window, self: Window, document: document, name: "", location: Location, …}
 
-window.myFunction();//Window {window: Window, self: Window, document: document, name: "", location: Location, …}
+window.myFunction();//Window {window: Window, self: Window, document: document, name: "", location: Location, …} /*
+
+*/
+
+
+
+// Example 3-'this" inside of the function in strict mode
+
+"use strict";
+
+function myFunction()
+{
+    console.log(this);
+}
+
+myFunction();// "this" is undefined
+
+window.myFunction();// "this" is equal to window in strict mode
+
+
+
+
 
