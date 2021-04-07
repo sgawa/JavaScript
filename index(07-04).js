@@ -1,6 +1,6 @@
 // Let Lifecycle:
 
-/*function fn(){
+function fn(){
 
 let a; // variable a is initilaised with "undefined"
 console.log(a);// undefined
@@ -13,7 +13,7 @@ console.log(a1);//10
 
 fn();
 
-//console.log(a);//Uncaught ReferenceError: a is not defined
+console.log(a);//Uncaught ReferenceError: a is not defined
 
 
 // Const lifecycle
@@ -30,7 +30,7 @@ function fn1()
 
 fn1();
 
-//console.log(b2);//Uncaught ReferenceError: b2 is not defined-- because it is limited to the function scope only
+console.log(b2);//Uncaught ReferenceError: b2 is not defined-- because it is limited to the function scope only
 
 // Function lifecycle:
 
@@ -45,11 +45,11 @@ smile();
 
 // Variable Lifecycle-Challenge 1
 
-let b;  */
+let b;  
 
 // Function declaration:
 
-/*function fn4(a,b)
+function fn4(a,b)
 {
     return a+b;
 }
@@ -76,7 +76,7 @@ setTimeout(function(a,b)
 
 // Arrow Functions- Example 1
 
-//console.log(sum(5,9));//Uncaught ReferenceError: Cannot access 'sum' before initialization
+console.log(sum(5,9));//Uncaught ReferenceError: Cannot access 'sum' before initialization
 
 const sum=(a,b)=>a+b;
 
@@ -93,7 +93,7 @@ const post={
  postId:1234
 }
 
-/*
+
 const processedPost=(post)=>{
   return{
     title:post.title,
@@ -102,11 +102,11 @@ const processedPost=(post)=>{
     postPopular:post.comments <3 ? true: false,// explicit called function
   }
  
-};*/
+};
 
-//console.log(processedPost(post));//{title: "Sample Title", comments: 10, shared: true, postPopular: false}
+console.log(processedPost(post));//{title: "Sample Title", comments: 10, shared: true, postPopular: false}
 
-/*const processedPost=(post)=>({
+const processedPost=(post)=>({
   
     title:post.title,
     comments:post.comments,
@@ -143,7 +143,7 @@ const num={
 console.log(num.info());// 200 */
 
 
-/*const num={
+const num={
     value:200,
     info:()=>
     {
@@ -166,7 +166,7 @@ console.log(num.info());// 200 */
   console.log(apple);//groceryItem {title: "Apple", kind: "fruit"}
 
   const cabage=new groceryItem("Cabage","vegetable");
-  console.log(cabage);//groceryItem {title: "Cabage", kind: "vegetable"}  */
+  console.log(cabage);//groceryItem {title: "Cabage", kind: "vegetable"} 
 
   // Challenge 1:
 
