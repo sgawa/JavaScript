@@ -207,3 +207,5 @@ function fn4()
 fn4();
 
 console.log(a7);
+
+
