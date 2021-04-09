@@ -48,7 +48,7 @@ const arrayCheck2=(inputArray)=>{
 return "Array is not sorted";
 
 }
-console.log(arrayCheck2(d)); */
+console.log(arrayCheck2(d)); 
 
 // Challenge 
 
