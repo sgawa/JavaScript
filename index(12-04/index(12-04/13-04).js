@@ -1,3 +1,5 @@
+// index 12-04/13-04
+
 const myArray=[10,"abc",true,undefined,null,[1,2],{}];
 
 console.log(true,myArray.includes(true));// true true
