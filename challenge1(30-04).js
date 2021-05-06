@@ -1,5 +1,6 @@
 // Challenge 1-Sum Numbers
 
+
 "use strict";
 
 function sum(...args)
@@ -253,4 +254,40 @@ for(let i=0;i<str.length;i++)
 }
 
 console.log(vowelsCount);//8
+
+
+
+// Challenge 13-Swap values of two variables
+
+"use strict";
+
+var a="first";
+
+var b="second";
+
+[b,a]=[a,b];
+
+console.log(a,b);// second first
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
