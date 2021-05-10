@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}
